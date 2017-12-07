@@ -2,7 +2,7 @@
 
 1. Clone the repository:
     ```
-    $ git clone https://github.com/
+    $ git clone https://github.com/bgutsol/gallery-app.git
     ```
 2. Install dependencies:
     ```
