@@ -1,0 +1,58 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font: {
+    size: 14px;
+    family: $main-font;
+  }
+  background-color: #e2e1e0;
+  color: $text-color;
+  @include font-smoothing;
+}
+
+:focus {
+  outline: 0;
+}
+
+p, h1, h2, h3, h4, ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@include mq-max(1023px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+
+@include mq(1024px) {
+  .desktop-hidden {
+    display: none !important;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1064px;
+  padding: 0 10px;
+  position: relative;
+
+  @include mq(768px) {
+    padding: 0 20px;
+  }
+}

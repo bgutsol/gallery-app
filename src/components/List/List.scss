@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  margin: -10px;
+
+  &__item {
+    margin: 10px;
+    width: 246px;
+    flex-shrink: 0;
+  }
+
+  &__notify {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+  }
+}
