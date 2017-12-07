@@ -1,6 +1,4 @@
-## galery-app
-
-# Installation (development)
+## Installation (development)
 
 1. Clone the repository:
     ```
